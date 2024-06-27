@@ -1,0 +1,44 @@
+18:44:21 **** Incremental Build of configuration Debug for project perfect ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\perfect.o" "..\\src\\perfect.cpp" 
+..\src\perfect.cpp: In function 'int main()':
+..\src\perfect.cpp:4:6: warning: unused variable 'num' [-Wunused-variable]
+  int num,sum=0,rem,i;
+      ^~~
+..\src\perfect.cpp:4:10: warning: unused variable 'sum' [-Wunused-variable]
+  int num,sum=0,rem,i;
+          ^~~
+..\src\perfect.cpp:4:16: warning: unused variable 'rem' [-Wunused-variable]
+  int num,sum=0,rem,i;
+                ^~~
+..\src\perfect.cpp:4:20: warning: unused variable 'i' [-Wunused-variable]
+  int num,sum=0,rem,i;
+                    ^
+..\src\perfect.cpp: At global scope:
+..\src\perfect.cpp:6:8: error: expected constructor, destructor, or type conversion before '(' token
+ } scanf("%d",&num);
+        ^
+..\src\perfect.cpp:7:1: error: expected unqualified-id before 'for'
+ for(i=1;i<num;i++)
+ ^~~
+..\src\perfect.cpp:7:9: error: 'i' does not name a type
+ for(i=1;i<num;i++)
+         ^
+..\src\perfect.cpp:7:15: error: 'i' does not name a type
+ for(i=1;i<num;i++)
+               ^
+..\src\perfect.cpp:14:1: error: expected unqualified-id before 'if'
+ if(sum==num)
+ ^~
+..\src\perfect.cpp:16:1: error: expected unqualified-id before 'else'
+ else
+ ^~~~
+..\src\perfect.cpp:18:1: error: 'return0' does not name a type
+ return0;
+ ^~~~~~~
+..\src\perfect.cpp:19:1: error: expected declaration before '}' token
+ }
+ ^
+
+18:44:21 Build Failed. 8 errors, 4 warnings. (took 220ms)
+

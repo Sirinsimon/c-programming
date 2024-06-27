@@ -1,0 +1,54 @@
+07:57:39 **** Incremental Build of configuration Debug for project multiplication ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiplication.o" "..\\src\\multiplication.c" 
+gcc -o multiplication.exe "src\\multiplication.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file multiplication.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:57:45 **** Incremental Build of configuration Debug for project multiplication ****
+Info: Internal Builder is used for build
+gcc -o multiplication.exe "src\\multiplication.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file multiplication.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:58:50 **** Incremental Build of configuration Debug for project multiplication ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\multiplication.o" "..\\src\\multiplication.c" 
+gcc -o multiplication.exe "src\\multiplication.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file multiplication.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:59:12 **** Incremental Build of configuration Debug for project multiplication ****
+Info: Internal Builder is used for build
+gcc -o multiplication.exe "src\\multiplication.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file multiplication.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+07:59:49 **** Incremental Build of configuration Debug for project multiplication ****
+Info: Internal Builder is used for build
+gcc -o multiplication.exe "src\\multiplication.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file multiplication.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+12:46:53 **** Rebuild of configuration Debug for project diagonal_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\diagonal_sum.o" "..\\src\\diagonal_sum.c" 
+gcc -o diagonal_sum.exe "src\\diagonal_sum.o" 
+Info: Nothing to build for diagonal_sum
+15:24:28 **** Rebuild of configuration Debug for project diagonal_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\diagonal_sum.o" "..\\src\\diagonal_sum.c" 
+gcc -o diagonal_sum.exe "src\\diagonal_sum.o" 
+Info: Nothing to build for diagonal_sum
+15:25:28 **** Incremental Build of configuration Debug for project diagonal_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\diagonal_sum.o" "..\\src\\diagonal_sum.c" 
+gcc -o diagonal_sum.exe "src\\diagonal_sum.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file diagonal_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:26:03 **** Incremental Build of configuration Debug for project diagonal_sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\diagonal_sum.o" "..\\src\\diagonal_sum.c" 
+gcc -o diagonal_sum.exe "src\\diagonal_sum.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file diagonal_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:26:28 **** Incremental Build of configuration Debug for project diagonal_sum ****
+Info: Internal Builder is used for build
+gcc -o diagonal_sum.exe "src\\diagonal_sum.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file diagonal_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status

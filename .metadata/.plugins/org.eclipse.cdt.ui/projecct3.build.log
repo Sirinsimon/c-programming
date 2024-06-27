@@ -1,0 +1,26 @@
+11:38:15 **** Incremental Build of configuration Debug for project projecct3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\projecct3.o" "..\\src\\projecct3.c" 
+..\src\projecct3.c: In function 'main':
+..\src\projecct3.c:17:8: warning: missing terminating " character
+  scanf("%d %d,&a,&b);
+        ^
+..\src\projecct3.c:17:8: error: missing terminating " character
+  scanf("%d %d,&a,&b);
+        ^~~~~~~~~~~~~~
+..\src\projecct3.c:18:9: error: expected ')' before ';' token
+  sum=a+b;
+         ^
+..\src\projecct3.c:18:2: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+  sum=a+b;
+  ^~~
+In file included from ..\src\projecct3.c:11:0:
+c:\mingw\include\stdio.h:667:41: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    scanf (const char *, ...);
+                                         ^~~~~
+..\src\projecct3.c:21:1: error: expected ';' before '}' token
+ }
+ ^
+
+11:38:16 Build Failed. 3 errors, 2 warnings. (took 778ms)
+

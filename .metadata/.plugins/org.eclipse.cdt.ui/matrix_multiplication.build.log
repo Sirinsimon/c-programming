@@ -1,0 +1,87 @@
+09:42:04 **** Incremental Build of configuration Debug for project matrix_multiplication ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\matrix_multiplication.o" "..\\src\\matrix_multiplication.c" 
+..\src\matrix_multiplication.c: In function 'main':
+..\src\matrix_multiplication.c:38:26: error: 'j' undeclared (first use in this function)
+        scanf("%d", &a[i][j]);
+                          ^
+..\src\matrix_multiplication.c:38:26: note: each undeclared identifier is reported only once for each function it appears in
+..\src\matrix_multiplication.c:17:24: warning: unused variable 'sum' [-Wunused-variable]
+    int r1, c1, r2, c2, sum = 0;
+                        ^~~
+..\src\matrix_multiplication.c:16:30: warning: unused variable 'c' [-Wunused-variable]
+    int a[40][40], b[40][40], c[40][40];
+                              ^
+..\src\matrix_multiplication.c:16:19: warning: unused variable 'b' [-Wunused-variable]
+    int a[40][40], b[40][40], c[40][40];
+                   ^
+..\src\matrix_multiplication.c:16:8: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+    int a[40][40], b[40][40], c[40][40];
+        ^
+..\src\matrix_multiplication.c: At top level:
+..\src\matrix_multiplication.c:42:11: error: expected declaration specifiers or '...' before string constant
+    printf("\n Enter values into second matrix \n ");
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\matrix_multiplication.c:43:4: error: expected identifier or '(' before 'for'
+    for (int i = 0; i < r2; i++) {
+    ^~~
+..\src\matrix_multiplication.c:43:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+    for (int i = 0; i < r2; i++) {
+                      ^
+..\src\matrix_multiplication.c:43:29: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+    for (int i = 0; i < r2; i++) {
+                             ^~
+..\src\matrix_multiplication.c:49:11: error: expected declaration specifiers or '...' before string constant
+    printf("\n The first matrix is \n ");
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\matrix_multiplication.c:50:4: error: expected identifier or '(' before 'for'
+    for (int i = 0; i < r1; i++) {
+    ^~~
+..\src\matrix_multiplication.c:50:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+    for (int i = 0; i < r1; i++) {
+                      ^
+..\src\matrix_multiplication.c:50:29: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+    for (int i = 0; i < r1; i++) {
+                             ^~
+..\src\matrix_multiplication.c:57:11: error: expected declaration specifiers or '...' before string constant
+    printf("\n The second matrix is \n ");
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\matrix_multiplication.c:58:4: error: expected identifier or '(' before 'for'
+    for (int i = 0; i < r2; i++) {
+    ^~~
+..\src\matrix_multiplication.c:58:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+    for (int i = 0; i < r2; i++) {
+                      ^
+..\src\matrix_multiplication.c:58:29: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+    for (int i = 0; i < r2; i++) {
+                             ^~
+..\src\matrix_multiplication.c:65:4: error: expected identifier or '(' before 'for'
+    for (int i = 0; i < r1; i++) {
+    ^~~
+..\src\matrix_multiplication.c:65:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+    for (int i = 0; i < r1; i++) {
+                      ^
+..\src\matrix_multiplication.c:65:29: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+    for (int i = 0; i < r1; i++) {
+                             ^~
+..\src\matrix_multiplication.c:75:11: error: expected declaration specifiers or '...' before string constant
+    printf("\n The resultant matrix is \n ");
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\matrix_multiplication.c:76:4: error: expected identifier or '(' before 'for'
+    for (int i = 0; i < r1; i++) {
+    ^~~
+..\src\matrix_multiplication.c:76:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+    for (int i = 0; i < r1; i++) {
+                      ^
+..\src\matrix_multiplication.c:76:29: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+    for (int i = 0; i < r1; i++) {
+                             ^~
+..\src\matrix_multiplication.c:82:2: error: expected identifier or '(' before 'return'
+  return EXIT_SUCCESS;
+  ^~~~~~
+..\src\matrix_multiplication.c:83:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+
+09:42:04 Build Failed. 22 errors, 4 warnings. (took 191ms)
+

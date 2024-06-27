@@ -1,0 +1,10 @@
+22:47:43 **** Incremental Build of configuration Debug for project game ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\game.o" "..\\src\\game.c" 
+..\src\game.c: In function 'main':
+..\src\game.c:79:2: error: expected declaration or statement at end of input
+  return EXIT_SUCCESS;
+  ^~~~~~
+
+22:47:43 Build Failed. 1 errors, 0 warnings. (took 358ms)
+

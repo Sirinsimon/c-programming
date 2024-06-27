@@ -1,0 +1,20 @@
+12:41:21 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.c" 
+..\src\array.c: In function 'main':
+..\src\array.c:17:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&n);
+        ~~~~^
+..\src\array.c:20:15: error: invalid operands to binary & (have 'char *' and 'int')
+   scanf("%d\n"&a[i]);
+         ~~~~~~^~~~~
+..\src\array.c:22:27: error: expected expression before 'int'
+ printf("entered values",a[int i]);
+                           ^~~
+..\src\array.c: At top level:
+..\src\array.c:24:1: error: expected identifier or '(' before 'return'
+ return 0;
+ ^~~~~~
+
+12:41:22 Build Failed. 4 errors, 0 warnings. (took 568ms)
+

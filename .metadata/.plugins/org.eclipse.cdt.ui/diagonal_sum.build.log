@@ -1,0 +1,8 @@
+15:26:28 **** Incremental Build of configuration Debug for project diagonal_sum ****
+Info: Internal Builder is used for build
+gcc -o diagonal_sum.exe "src\\diagonal_sum.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file diagonal_sum.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+15:26:28 Build Failed. 1 errors, 0 warnings. (took 252ms)
+
